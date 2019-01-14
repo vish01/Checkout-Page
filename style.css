@@ -39,6 +39,10 @@
 }
 .payment-form .title{
     font-size: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.7em;
+    font-weight: 580;
+    padding-bottom: 8px;
 }
 .payment-form .products{
     background-color: #d8e7e7;
@@ -47,4 +51,57 @@
 .payment-form .products .item-desc{
     font-size: 0.8em;
     opacity: 0.6;
+}
+.payment-form .products .item p{
+    margin-bottom: 0.2em;
+}
+.payment-form .products .price{
+    float: right;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.payment-form .products .total{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 9px;
+    padding-top: 20px;
+    font-weight: 600;
+    line-height: 1;
+}
+.payment-form .card-details{
+    padding: 25px 25px 15px;
+}
+.payment-form .card-details label{
+    font-size: 12px;
+    font-weight: 580;
+    margin-bottom: 13px;
+    color: #556d88;
+    text-transform: uppercase;
+}
+.payment-form .card-details button{
+    margin-top: 0.5em;
+    padding: 12px 0;
+    font-weight: 580;
+}
+.payment-form .date-separator{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+@media (min-width: 570px){
+    .payment-form title{
+    font-size: 1.2em;
+    }
+.payment-form .products{
+    padding: 40px;
+}
+.payment-form .products .item-name,.payment-form .products .price{
+    font-size: 1em;
+}
+.payment-form .card-details{
+    padding: 40px 40px 30px;
+}
+.payment-form .card-details button{
+    margin-top:2em;
+}
 }
